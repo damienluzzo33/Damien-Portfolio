@@ -181,6 +181,10 @@ main {
     );
 }
 
+.main-project:hover, .sub-project:hover {
+
+}
+
 .main-project-header {
     position: absolute;
     bottom: 125px;
@@ -252,7 +256,7 @@ footer p {
     font-size: 1.2rem;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
 
     .about {
         height: auto;
@@ -305,7 +309,7 @@ footer p {
     }
 }
 
-@media screen and (min-width: 1185px){
+@media screen and (min-width: 1185px) {
     .about article p {
         font-size: 1.25rem;
     }
