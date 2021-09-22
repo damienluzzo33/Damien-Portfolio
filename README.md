@@ -10,6 +10,8 @@
 
 + Fully Responsive Webpage
 
+---
+
 ## Future Features
 
 + Add more portfolio projects to projects section
@@ -22,9 +24,15 @@
 
 + Find a better banner image
 
-## Screenshot and Link
+---
 
+## Screenshots and Link
+
+### Desktop View
 ![screenshot](./assets/images/homework2_screenshot.png)
+
+### Mobile View
+![screenshot](./assets/images/homework2_screenshot_mobile.png)
 
 [Link To Portfolio On Github Pages](https://damienluzzo33.github.io/homework-2-portfolio-v1/ "Damien's Portfolio - Version 1.0")
 
