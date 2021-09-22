@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- The head contains boilerplate meta tags, a title, a link to a css reset stylesheet, and a link to my applied stylesheet -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,11 +10,14 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<!-- The body has all the page content -->
 
 <body>
+    <!-- Header holds "logo" and navbar elements -->
     <header class="header">
         <h1 class="logo"><a href="#home">DTL</a></h1>
         <nav class="navbar">
+            <!-- These are the navigation links for the webpage -->
             <ul>
                 <li class="navlink">
                     <a href="#about">About</a>
@@ -27,64 +31,65 @@
             </ul>
         </nav>
     </header>
-
+    <!-- The main element contains all the sections for the webpage -->
     <main>
+        <!-- First section is a banner image with my name and future title -->
         <section class="banner" id="home">
             <article>
                 <h2>Damien Luzzo</h2>
                 <h3>Software Engineer + Web Developer</h3>
             </article>
         </section>
-
+        <!-- Second section is the about section with a title, an image of me, and a short description of who I am -->
         <section id="about" class="about">
             <h2>About Me</h2>
             <article>
                 <img src="./assets/images/20181209_223633.jpg" alt="photo of Damien Luzzo with his cats Willow and Oz">
-                <p>Damien is a software engineer and web developer with a passion for UX/UI design, site
+                <p>Damien is a software engineer and web developer with a passion for artificial intelligence, UX/UI design, site
                     accessibility, and performance optimization. He graduated from the University of California - Santa
                     Barbara with bachelors degrees in both Physics and Philosophy. Damien is also an entrepreneur,
                     teacher, documentary filmmaker, amateur photographer, and a social justice & climate change
-                    activist. In his free time, he spends time with his two cats and two dogs and enjoys gardening,
+                    activist. In his free time, he hangs out with his two cats and two dogs and enjoys gardening,
                     weight lifting, learning, watching/playing football and soccer, coding, and making the world a
                     better place.</p>
             </article>
         </section>
-
+        <!-- Third section is my projects section with a title four of my best projects highlighted. I only have a few projects that exist online at the moment, so there is only links to some of them while the rest are just placeholders -->
         <section id="projects" class="projects">
             <h2 class="projects-title">Projects</h2>
             <figure class="main-project">
-                <h3 class="main-project-header">Title</h3>
-                <p>Tech Stack</p>
+                <h3 class="main-project-header">Color Palette Maker</h3>
+                <!-- Note: Intentionally kept <a> tags inside of <p> tags -->
+                <p><a href="https://github.com/damienluzzo33/color-palette-maker" rel="noopener noreferrer" target="_blank">See Project</a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">Title</h3>
-                <p>Tech Stack</p>
+                <h3 class="project-header">Refactor Project</h3>
+                <p><a href="https://github.com/damienluzzo33/Homework-1-Refactor-HTML" rel="noopener noreferrer" target="_blank">See Project</a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">Title</h3>
-                <p>Tech Stack</p>
+                <h3 class="project-header">COMING SOON</h3>
+                <p><a href="#projects">See Project</a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">Title</h3>
-                <p>Tech Stack</p>
+                <h3 class="project-header">COMING SOON</h3>
+                <p><a href="#projects">See Project</a></p>
             </figure>
         </section>
-
+        <!-- Final section is the contact section with a title and links to my four preferred ways to be contacted by others -->
         <section id="contact" class="contact">
             <h2 class="contact-title">Contact</h2>
-            <div class="contact-links">
+            <address class="contact-links">
                 <a href="mailto:damienluzzo33@gmail.com">Email</a>
                 <a href="https://github.com/damienluzzo33">GitHub</a>
                 <a href="https://www.linkedin.com/in/damienluzzo/">LinkedIn</a>
                 <a href="https://twitter.com/DamienLuzzo">Twitter</a>
-            </div>
+            </address>
         </section>
-        
+        <!-- Footer section is here to keep others from taking any ideas from the page (or linked projects) without my permission -->
         <footer>
             <p>&#169;2021 Damien Luzzo</p>
         </footer>
     </main>
-
 </body>
 
 </html>
