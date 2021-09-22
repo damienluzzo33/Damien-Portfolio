@@ -12,9 +12,9 @@
 
 ## Screenshot and Link
 
---> Screenshot HERE
+![screenshot](./assets/images/homework2_screenshot.png)
 
---> Link HERE
+[Link To Portfolio On Github Pages](https://damienluzzo33.github.io/homework-2-portfolio-v1/ "Damien's Portfolio - Version 1.0")
 
 ## Other
 
