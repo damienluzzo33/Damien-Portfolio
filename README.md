@@ -10,6 +10,18 @@
 
 + Fully Responsive Webpage
 
+## Future Features
+
++ Add more portfolio projects to projects section
+
++ Add more responsiveness for users utilizing a wide screen or monitor
+
++ Add scrolling animation for when the links in the navbar are clicked
+
++ Add a blog section (and write blog posts for it)
+
++ Find a better banner image
+
 ## Screenshot and Link
 
 ![screenshot](./assets/images/homework2_screenshot.png)
