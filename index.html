@@ -8,16 +8,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Damien Luzzo</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<!-- The body has all the page content -->
 
 <body>
     <!-- Header holds "logo" and navbar elements -->
-    <header class="header">
-        <h1 class="logo"><a href="#home">DTL</a></h1>
+    <!-- <header class="header"> -->
         <nav class="navbar">
-            <!-- These are the navigation links for the webpage -->
+            <div class="nav-wrapper">
+                <!-- <h1 class="logo brand-logo"><a href="#home">DTL</a></h1> -->
+                <a href="#home" class="logo brand-logo">DTL</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="navlink"><a href="#projects">Projects</a></li>
+                    <li class="navlink"><a href="#about">About</a></li>
+                    <li class="navlink"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    <!-- </header> -->
+    <!-- <nav class="navbar">
             <ul>
                 <li class="navlink">
                     <a href="#about">About</a>
@@ -29,8 +50,8 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
-        </nav>
-    </header>
+        </nav> -->
+    <!-- </header> -->
     <!-- The main element contains all the sections for the webpage -->
     <main>
         <!-- First section is a banner image with my name and future title -->
@@ -45,7 +66,8 @@
             <h2>About Me</h2>
             <article>
                 <img src="./assets/images/20181209_223633.jpg" alt="photo of Damien Luzzo with his cats Willow and Oz">
-                <p>Damien is a software engineer and web developer with a passion for artificial intelligence, UX/UI design, site
+                <p>Damien is a software engineer and web developer with a passion for artificial intelligence, UX/UI
+                    design, site
                     accessibility, and performance optimization. He graduated from the University of California - Santa
                     Barbara with bachelors degrees in both Physics and Philosophy. Damien is also an entrepreneur,
                     teacher, documentary filmmaker, amateur photographer, and a social justice & climate change
@@ -58,21 +80,25 @@
         <section id="projects" class="projects">
             <h2 class="projects-title">Projects</h2>
             <figure class="main-project">
-                <h3 class="main-project-header">Color Palette Maker</h3>
+                <h3 class="main-project-header"></h3>
                 <!-- Note: Intentionally kept <a> tags inside of <p> tags -->
-                <p><a href="https://github.com/damienluzzo33/color-palette-maker" rel="noopener noreferrer" target="_blank">See Project</a></p>
+                <p><a href="https://github.com/damienluzzo33/color-palette-maker" rel="noopener noreferrer"
+                        target="_blank"> <i class="large material-icons">gps_fixed</i></a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">Refactor Project</h3>
-                <p><a href="https://github.com/damienluzzo33/Homework-1-Refactor-HTML" rel="noopener noreferrer" target="_blank">See Project</a></p>
+                <h3 class="project-header"></h3>
+                <p><a href="https://github.com/damienluzzo33/science-and-technology-quiz-2021" rel="noopener noreferrer"
+                        target="_blank"> <i class="large material-icons">gps_fixed</i></a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">COMING SOON</h3>
-                <p><a href="#projects">See Project</a></p>
+                <h3 class="project-header"></h3>
+                <p><a href="https://github.com/damienluzzo33/Project-1" rel="noopener noreferrer" target="_blank"> <i
+                            class="large material-icons">gps_fixed</i></a></p>
             </figure>
             <figure class="sub-project">
-                <h3 class="project-header">COMING SOON</h3>
-                <p><a href="#projects">See Project</a></p>
+                <h3 class="project-header"></h3>
+                <p><a href="https://github.com/damienluzzo33/Your-Weather-Forecast" rel="noopener noreferrer"
+                        target="_blank"> <i class="large material-icons">gps_fixed</i></a></p>
             </figure>
         </section>
         <!-- Final section is the contact section with a title and links to my four preferred ways to be contacted by others -->
@@ -90,6 +116,11 @@
             <p>&#169;2021 Damien Luzzo</p>
         </footer>
     </main>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

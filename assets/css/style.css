@@ -4,6 +4,7 @@
 :root {
     --dark-red: rgb(158, 0, 0);
     --dark-blue: rgb(0, 74, 158);
+    --light-blue: rgb(0, 153, 255);
     --off-white: rgba(250, 250, 250, 0.979);
     --dark: rgba(0, 0, 0, 0.925);
 }
@@ -11,6 +12,7 @@
 /*  Set font family for entire webpage */
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 /*  Set body width to 100% with black background color */
@@ -21,13 +23,13 @@ body {
 
 /*  Set header to flex and put space between logo and navbar. Make header fixed so that it stays at the top of the page as you scroll down. Align items to center vertically.
 */
-.header {
+.navbar {
     height: 100px;
     background-color: var(--dark);
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -49,12 +51,12 @@ body {
 
 /*  Display nav-link list items in a row */
 .navbar ul {
-    display: flex;
+    /* display: flex; */
 }
 
 /*  Create separation between nav-links  */
 .navlink {
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 /*  Set text-decoration to none to remove underline create a slight transitioning animation when the cursor hovers over each link. Make text white and bold and slightly bigger than base font-size.
@@ -82,10 +84,11 @@ main {
 /*  Set banner height to be full height of viewport. Give banner an image that covers the area, is centered, and does not repeat. Set display to flex so we can center the article in our banner class.
 */
 .banner {
-    background-image: url("../images/casey-horner-87SfJopg6B0-unsplash.jpg");
+    background-image: url("../images/alexander-ant-kvMZ-xXFrA4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
+    background-position-y: top;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -189,7 +192,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Make main project taller than the other three sub projects by an extra 100px. Add preview image as a background image of the figure. Add border to make it look cool. Add background image for first . Add transition for filter when we hover over it. */
 .main-project {
-    height: 250px;
+    height: 300px;
     border: solid 2px var(--off-white);
     width: 100%;
     background-image: url("../images/react-color-palette-img.png");
@@ -202,7 +205,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Make sub projects 150px tall so you can get a decent preview of the background image. Add border to make it look cool. Add transition for filter when we hover over it. */
 .sub-project {
-    height: 150px;
+    height: 200px;
     border: solid 2px var(--off-white);
     width: 100%;
     filter: grayscale(50%);
@@ -211,28 +214,26 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Add background image for second project */
 .projects figure:nth-of-type(2) {
-    background-image: url("../images/screencapture-Homework-1-Refactor.png");
+    background-image: url("../images/screentshot_4.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 /*  Add background image for third project */
 .projects figure:nth-of-type(3) {
-    background-image: url("https://miro.medium.com/max/500/0*-ouKIOsDCzVCTjK-.png");
+    background-image: url("../images/68747470733a2f2f692e696d6775722e636f6d2f796d32357031432e706e67.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    filter: opacity(50%);
+    background-position: top;
 }
 
 /*  Add background image for fourth project */
 .projects figure:nth-of-type(4) {
-    background-image: url("https://miro.medium.com/max/500/0*-ouKIOsDCzVCTjK-.png");
+    background-image: url("../images/screenshot_weather_app.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    filter: opacity(50%);
+    background-position: top;
 }
 
 /*  Create hover effect when mouse hovers over the main project and sub project figures to get rid of greyscale. */
@@ -282,10 +283,14 @@ Center article headings using flex. Do flex-direction column to make sure headin
 /*  Remove text decoration from anchor tag presets and change color to white. Make font bigger and bolder and add some shadow */
 .projects figure p a {
     text-decoration: none;
-    color: var(--off-white);
-    text-shadow: 3px 3px 3px var(--dark);
-    font-size: 1.2rem;
-    font-weight: 800;
+    color: var(--light-blue);
+    text-shadow: 1px 1px 2px var(--dark);
+    /* font-size: 1.2rem; */
+    /* font-weight: 800; */
+}
+
+.material-icons {
+    font-size: 3rem !important;
 }
 
 /*  For contact section, make it flex in the column direction so that section title is on top of the address element containing links to contact information. Add background gradient same as about section and add some margin to push it further away from the projects section */
@@ -374,11 +379,22 @@ footer p {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+    }
+
+    .projects-title {
+        width: 100%;
+    }
+
+    .main-project {
+        width: 90% ;
+        margin: 0 20px 10px 20px;
     }
     
     /*  Change width of sub projects to 33.3% so they can fit on the same line. */
     .sub-project {
-        width: 33.3%;
+        width: 30%;
+        margin: 10px 0 0 0;
     }
 
     /*  Make project header h3s all aligned to the left side of the figure its contained in by setting left to 25px */
@@ -392,7 +408,6 @@ footer p {
         left: 25px;
         bottom: 10px;
     }
-
 }
 
 /*  When screen is more than 965px, increase p element font size so that it fills up more space in the about section's article element. It looks better this way.  */
@@ -415,3 +430,16 @@ background: linear-gradient(
     var(--dark-blue) 0%,
     black 100%
 ); */
+
+
+.sidenav {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg");
+    background-size:initial;
+    background-position: center;
+}
+
+.sidenav a {
+    color: var(--off-white) !important;
+    font-size: 24px !important;
+    padding-left: 10px !important;
+}
