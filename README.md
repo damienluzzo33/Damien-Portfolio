@@ -32,10 +32,10 @@ Who is Damien Luzzo? Click the link below to find out.
 ## Screenshots
 
 ### Desktop View
-![screenshot](./assets/images/protfolio_version2_desktop.png)
+![screenshot](./assets/images/protfolio_version2_desktop3.png)
 
 ### Mobile View
-![screenshot](./assets/images/protfolio_version2_mobile.png)
+![screenshot](./assets/images/protfolio_version2_mobile3.png)
 
 ## Libraries
 
