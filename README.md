@@ -1,5 +1,8 @@
 # Damien Luzzo Portfolio Website
 
+Who is Damien Luzzo? Click the link below to find out.
+[Damien Luzzo's Awesome Portfolio](https://damienluzzo33.github.io/homework-2-portfolio-v1/ "Damien's Portfolio - Version 1.0")
+
 ## Current Features
 
 + Personal Photo and About Me
@@ -14,30 +17,29 @@
 
 ## Future Features
 
-+ Add more portfolio projects to projects section
-
 + Add more responsiveness for users utilizing a wide screen or monitor
-
-+ Add scrolling animation for when the links in the navbar are clicked
 
 + Add a blog section (and write blog posts for it)
 
-+ Find a better banner image
++ ~~Add more portfolio projects to projects section~~
+
++ ~~Add scrolling animation for when the links in the navbar are clicked~~
+
++ ~~Find a better banner image~~
 
 ---
 
-## Screenshots and Link
+## Screenshots
 
 ### Desktop View
-![screenshot](./assets/images/homework2_screenshot.png)
+![screenshot](./assets/images/protfolio_version2_desktop.png)
 
 ### Mobile View
-![screenshot](./assets/images/homework2_screenshot_mobile.png)
+![screenshot](./assets/images/protfolio_version2_mobile.png)
 
-[Link To Portfolio On Github Pages](https://damienluzzo33.github.io/homework-2-portfolio-v1/ "Damien's Portfolio - Version 1.0")
+## Libraries
 
-## Other
-
-+ Project was done individually, built from scratch, and uses 100% unique code
-
-+ Used GIF in homework README for layout inspiration
++ Materialize Navbar
++ Materialize Icons
++ Google Fonts
++ Upsplash Photos

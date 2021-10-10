@@ -108,14 +108,18 @@ Center article headings using flex. Do flex-direction column to make sure headin
 /*  Make banner h2 white with a huge font size and some bottom padding */
 .banner h2 {
     color: var(--off-white);
-    font-size: 3rem;
-    padding-bottom: 5px;
+    font-size: 3.5rem;
+    margin-bottom: -5px;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
 }
 
 /*  Make banner h3 white with font-size that makes width of both the h2 and h3 content match */
 .banner h3 {
     color: var(--off-white);
-    font-size: 1.15rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
 }
 
 /*  Make about section the full width of the main element with a background gradient that goes from red to black in a diagonal direction. Make color of all text inside section to be white and display containing elements in column. Make height of section the height of the viewport. Create some margin top so that way fixed navbar does not cover title when navbar link to the section is clicked. */
@@ -125,9 +129,9 @@ Center article headings using flex. Do flex-direction column to make sure headin
     color: var(--off-white);
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
+    padding-top: 100px;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
 }
 
 /*  Make article within the about section display flex as a column so that img and p elements stack on top of one another. Add some padding to create separation from page border and the article. */
@@ -148,6 +152,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 .about article p {
     margin-top: 20px;
     line-height: 120%;
+    font-size: 1.2rem;
 }
 
 /*  Make h2 within about section double root font size and create some separation between h2 and article. */
@@ -413,14 +418,14 @@ footer p {
 /*  When screen is more than 965px, increase p element font size so that it fills up more space in the about section's article element. It looks better this way.  */
 @media screen and (min-width: 965px) {
     .about article p {
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
 }
 
 /*  When screen is more than 1185px, increase p element font size so that it fills up even more space in the about section's article element. It looks way better this way. */
 @media screen and (min-width: 1185px) {
     .about article p {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 }
 
