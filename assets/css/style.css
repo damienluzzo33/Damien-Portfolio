@@ -83,7 +83,7 @@ main {
 
 /*  Set banner height to be full height of viewport. Give banner an image that covers the area, is centered, and does not repeat. Set display to flex so we can center the article in our banner class.
 */
-.banner {
+#home {
     background-image: url("../images/alexander-ant-kvMZ-xXFrA4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ main {
 /*  Make sure article is in front of the banner background with z-index.
 Center article headings using flex. Do flex-direction column to make sure headings stack on top of one another.
 */
-.banner article {
+#home article {
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 }
 
 /*  Make banner h2 white with a huge font size and some bottom padding */
-.banner h2 {
+#home h2 {
     color: var(--off-white);
     font-size: 3.5rem;
     margin-bottom: -5px;
@@ -115,7 +115,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 }
 
 /*  Make banner h3 white with font-size that makes width of both the h2 and h3 content match */
-.banner h3 {
+#home h3 {
     color: var(--off-white);
     font-size: 2rem;
     text-shadow: 2px 2px 3px black;
