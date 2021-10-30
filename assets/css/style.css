@@ -151,7 +151,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 /*  Make line height taller so that more spacing is created between lines of text. Add a little bit more separation between img and p. */
 .about article p {
     margin-top: 20px;
-    line-height: 120%;
+    line-height: 150%;
     font-size: 1.2rem;
 }
 
