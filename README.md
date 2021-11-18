@@ -1,7 +1,7 @@
 # Damien Luzzo Portfolio Website
 
 Who is Damien Luzzo? Click the link below to find out.
-[Damien Luzzo's Awesome Portfolio](https://damienluzzo33.github.io/homework-2-portfolio-v1/ "Damien's Portfolio - Version 1.0")
+[Damien Luzzo's Awesome Portfolio](https://damienluzzo33.github.io/Damien-Portfolio/)
 
 ## Current Features
 
