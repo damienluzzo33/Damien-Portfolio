@@ -5,13 +5,15 @@ Who is Damien Luzzo? Click the link below to find out.
 
 ## Current Features
 
-+ Personal Photo and About Me
++ Personal photo and about me section
 
-+ Portfolio Projects and Past Work
++ Includes section for my portfolio projects and past work
 
-+ Contact Information
++ Contains my contact information
 
-+ Fully Responsive Webpage
++ Github, resume and linkedIn pages are all linked in contact section
+
++ Webpage is fully responsive
 
 ---
 
