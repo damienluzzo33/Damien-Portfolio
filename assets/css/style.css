@@ -84,7 +84,7 @@ main {
 /*  Set banner height to be full height of viewport. Give banner an image that covers the area, is centered, and does not repeat. Set display to flex so we can center the article in our banner class.
 */
 #home {
-    background-image: url("../images/alexander-ant-kvMZ-xXFrA4-unsplash.jpg");
+    background-image: url("../images/land1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -122,16 +122,16 @@ Center article headings using flex. Do flex-direction column to make sure headin
     font-weight: bold;
 }
 
-/*  Make about section the full width of the main element with a background gradient that goes from red to black in a diagonal direction. Make color of all text inside section to be white and display containing elements in column. Make height of section the height of the viewport. Create some margin top so that way fixed navbar does not cover title when navbar link to the section is clicked. */
+/*  Make about section the full width of the main element with a background gradient that goes from blue to black in a diagonal direction. Make color of all text inside section to be white and display containing elements in column. Make height of section the height of the viewport. Create some margin top so that way fixed navbar does not cover title when navbar link to the section is clicked. */
 .about {
     width: 100%;
-    background: linear-gradient(to left top, var(--dark-red) 10%, var(--dark));
+    background: linear-gradient(to left top, var(--dark-blue) 10%, var(--dark));
     color: var(--off-white);
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     align-items: center;
-    height: 110vh;
+    height: auto;
 }
 
 /*  Make article within the about section display flex as a column so that img and p elements stack on top of one another. Add some padding to create separation from page border and the article. */
@@ -197,10 +197,10 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Make main project taller than the other three sub projects by an extra 100px. Add preview image as a background image of the figure. Add border to make it look cool. Add background image for first . Add transition for filter when we hover over it. */
 .main-project {
-    height: 300px;
+    height: 500px;
     border: solid 2px var(--off-white);
     width: 100%;
-    background-image: url("../images/react-color-palette-img.png");
+    background-image: url("../images/project_2_giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -219,7 +219,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Add background image for second project */
 .projects figure:nth-of-type(2) {
-    background-image: url("../images/screentshot_4.png");
+    background-image: url("../images/react-color-palette-img.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -235,7 +235,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
 
 /*  Add background image for fourth project */
 .projects figure:nth-of-type(4) {
-    background-image: url("../images/screenshot_weather_app.png");
+    background-image: url("../images/screenshot_desktop_view.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -305,7 +305,7 @@ Center article headings using flex. Do flex-direction column to make sure headin
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to left top, var(--dark-red) 10%, var(--dark));
+    background: linear-gradient(to left top, var(--dark-blue) 10%, var(--dark));
     color: var(--off-white);
     margin-top: 60px;
 }
