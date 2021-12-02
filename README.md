@@ -5,13 +5,17 @@ Who is Damien Luzzo? Click the link below to find out.
 
 ## Current Features
 
++ Banner image with name and title
+
++ Smooth scrolling and popout navigation on mobile devices
+
 + Personal photo and about me section
 
-+ Includes section for my portfolio projects and past work
++ Includes section for my top portfolio projects and past work
 
 + Contains my contact information
 
-+ Github, resume and linkedIn pages are all linked in contact section
++ Github, resume, twitter, email, and linkedIn pages are all linked in contact section
 
 + Webpage is fully responsive
 
@@ -19,7 +23,7 @@ Who is Damien Luzzo? Click the link below to find out.
 
 ## Future Features
 
-+ Add more responsiveness for users utilizing a wide screen or monitor
++ ~~Add more responsiveness for users utilizing a wide screen or monitor~~
 
 + Add a blog section (and write blog posts for it)
 
@@ -45,3 +49,4 @@ Who is Damien Luzzo? Click the link below to find out.
 + Materialize Icons
 + Google Fonts
 + Upsplash Photos
++ Material Icons
