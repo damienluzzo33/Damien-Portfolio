@@ -23,7 +23,7 @@ Who is Damien Luzzo? Click the link below to find out.
 
 ## Future Features
 
-+ ~~Add more responsiveness for users utilizing a wide screen or monitor
++ ~~Add more responsiveness for users utilizing a wide screen or monitor~~
 
 + Add a blog section (and write blog posts for it)
 
